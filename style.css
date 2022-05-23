@@ -1,0 +1,212 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.center{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    border-style:  solid ;
+    border-color: #9a5bb9;
+    box-shadow:20px 8px 15px #9a5bb9;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    position: absolute;
+    top : 20%;
+    left: 32%;
+}
+.imputbox{
+    border: none;
+}
+.text_field input{
+    width: 80%;
+    padding: 0 5px;
+    height: 20px;
+    border-bottom: 2px solid rgb(216, 216, 19);
+    font-size: 18px;
+    background: none;
+    outline: none;
+
+}
+.text_field{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.btn{
+    color: rgb(69, 255, 187);
+    background: rgb(92, 78, 78);
+    border: none;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+#zero{
+    
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 8%;
+    bottom: 240px;
+    
+}
+#one{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 26%;
+    bottom: 240px;
+}
+#plus{
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 62%;
+    bottom: 240px;
+}
+#two{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 44%;
+    bottom: 240px;
+}
+#three{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 8%;
+    bottom: 180px;
+}
+#four{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 26%;
+    bottom: 180px;
+}
+#five{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 44%;
+    bottom: 180px;
+}
+
+#min{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 62%;
+    bottom: 180px;
+}
+
+#seven{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 26%;
+    bottom: 125px;
+}
+#six{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 8%;
+    bottom: 125px;
+}
+#eight{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    left: 44%;
+    bottom: 125px;
+}
+#nine{
+    padding-bottom: 10px;
+    left: 62%;
+    bottom: 125px;
+}
+#div{
+
+    padding-bottom: 44px;
+    padding-top: 40px;
+    left: 80%;
+    bottom: 200px;
+}#sub{
+
+    padding-bottom: 40px;
+    padding-top: 30px;
+    left: 80%;
+    bottom: 125px;
+}
+
+#mode{
+
+    padding-top:5px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    left: 8%;
+    bottom: 70px;
+    color: red;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+}
+#equa{
+
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    left: 68%;
+    bottom: 70px;
+    color: green;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+}
+.disp{
+    position: absolute;
+    top: 270px;
+    font-size: 28px;
+    left: 90px;
+    color: rgb(72, 0, 79); 
+}
+
+#dot{
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    left: 38%;
+    bottom: 70px;
+
+}
+
+.btn:hover{
+    background: rgb(69, 255, 187);
+    color: rgb(71, 63, 63);
+    box-shadow: 3px 3px 5px ;
+    border: 2px solid rgba(69, 255, 187);
+}
+.text_field input:hover{
+    background:  rgb(216, 216, 19);
+}
+#mode:hover{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+#equa:hover{
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+.header{
+    color: blue;
+    position: absolute;
+    top: 20px;
+    left: 550px;
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+}

@@ -1,0 +1,44 @@
+<!-- Write a program to build the Calculator in JavaScript. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Calculator Program in JavaScript
+    </title>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+        <h1>Calculator</h1>
+    </div>
+      <form name="form1">
+        <div class="container">
+            <div class="center">
+              <div class="text_field">
+                    <input class="imputbox" name="textview" />
+              </div>
+      </form> 
+            
+                <input class="btn"  type="button" value="B" class="btn" id="mode" onclick="backspace()" />
+                <input class="btn" type="button" value="/" class="btn" id="sub" onclick="insert('/')" />
+                <input class="btn" type="button"  value="x" class="btn" id="div"  onclick="insert('*')" />
+                <input class="btn" type="button" value="7" class="btn" id="seven" onclick="insert(7)" />
+                <input class="btn" type="button" value="8" class="btn" id="eight" onclick="insert(8)" />
+                <input class="btn" type="button" value="9" class="btn" id="nine" onclick="insert(9)" />
+                <input class="btn" type="button" value="-" class="btn" id="min" onclick="insert('-')"  />
+                <input class="btn" type="button" value="4" class="btn" id="four" onclick="insert(4)" />
+                <input class="btn" type="button" value="5" class="btn" id="five" onclick="insert(5)" />
+                <input class="btn" type="button" value="6" class="btn" id="six" onclick="insert(6)" />
+                <input class="btn" type="button" value="+" class="btn" id="plus"  onclick="insert('+')" />
+                <input class="btn" type="button" class="btn" id="one" value="1" onclick="insert(1)" />
+                <input class="btn" type="button" class="btn" id="two" value="2" onclick="insert(2)" />
+                <input class="btn" type="button" class="btn" id="three" value="3" onclick="insert(3)" />
+                
+                <input class="btn" type="button" class="btn" id="equa" value="=" onclick="equal()" />
+                
+                <input class="btn" type="button" class="btn" id="zero" value="0" onclick="insert(0)"/>
+                <input class="btn" type="button" value="." class="btn" id="dot" onclick="insert('.')" />
+    <script src="script.js"></script>
+  </body>
+</html>
