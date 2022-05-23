@@ -14,4 +14,5 @@ function insert(num) {
     document.form1.textview.value = exp.substring(
       0,
       exp.length - 1,
+    ) 
   }
