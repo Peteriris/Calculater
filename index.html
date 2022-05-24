@@ -1,44 +1,49 @@
-<!-- Write a program to build the Calculator in JavaScript. -->
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      Calculator Program in JavaScript
-    </title>
-    
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="header">
-        <h1>Calculator</h1>
+    <head>
+        <title>jguery</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="container">
+    <div class="center">
+        <form name="form" class="textview">
+            <input class="calc-display">
+        </form>
+        <div class="">
+            <table>
+                <tr>
+                    <td><input  type="button" class="btn clear" value="Clear All"onclick="c()"></td>
+                    <td><input  type="button" class="btn sub" value="/"onclick="insert('/')"></td>
+                    <td><input  type="button" class="btn mode" value="B"onclick="del()"></td>
+                    <td><input  type="button" class="btn div" value="X"onclick="insert('*')"></td>
+                </tr>
+                <tr>
+                    <td><input  type="button" class="btn seven" value="7"onclick="insert(7)"></td>
+                    <td><input  type="button" class="btn eight" value="8"onclick="insert(8)"></td>
+                    <td><input  type="button" class="btn nine" value="9"onclick="insert(9)"></td>
+                    <td><input  type="button" class="btn min" value="-"onclick="insert('-')"></td>
+                </tr>
+                <tr>
+                    <td><input  type="button" class="btn four" value="4"onclick="insert(4)"></td>
+                    <td><input  type="button" class="btn five" value="5"onclick="insert(5)"></td>
+                    <td><input  type="button" class="btn six" value="6"onclick="insert(6)"></td>
+                    <td><input  type="button" class="btn plus" value="+"onclick="insert('+')"></td>
+                </tr>
+                <tr>
+                    <td><input  type="button" class="btn one" value="1"onclick="insert(1)"></td>
+                    <td><input  type="button" class="btn two" value="2"onclick="insert(2)"></td>
+                    <td><input  type="button" class="btn three" value="3"onclick="insert(3)"></td>
+                    <td><input  type="button" class="btn equa" value="="onclick="eql()"></td>
+                </tr>
+                <tr>
+                    <td><input  type="button" class="btn zero" value="0"onclick="insert(0)"></td>
+                    <td><input  type="button" class="btn dot" value="."onclick="insert('.')"></td>
+                </tr>
+            </table>
+        </div>
     </div>
-      <form name="form1">
-        <div class="container">
-            <div class="center">
-              <div class="text_field">
-                    <input class="imputbox" name="textview" />
-              </div>
-      </form> 
-            
-                <input class="btn"  type="button" value="B" class="btn" id="mode" onclick="backspace()" />
-                <input class="btn" type="button" value="/" class="btn" id="sub" onclick="insert('/')" />
-                <input class="btn" type="button"  value="x" class="btn" id="div"  onclick="insert('*')" />
-                <input class="btn" type="button" value="7" class="btn" id="seven" onclick="insert(7)" />
-                <input class="btn" type="button" value="8" class="btn" id="eight" onclick="insert(8)" />
-                <input class="btn" type="button" value="9" class="btn" id="nine" onclick="insert(9)" />
-                <input class="btn" type="button" value="-" class="btn" id="min" onclick="insert('-')"  />
-                <input class="btn" type="button" value="4" class="btn" id="four" onclick="insert(4)" />
-                <input class="btn" type="button" value="5" class="btn" id="five" onclick="insert(5)" />
-                <input class="btn" type="button" value="6" class="btn" id="six" onclick="insert(6)" />
-                <input class="btn" type="button" value="+" class="btn" id="plus"  onclick="insert('+')" />
-                <input class="btn" type="button" class="btn" id="one" value="1" onclick="insert(1)" />
-                <input class="btn" type="button" class="btn" id="two" value="2" onclick="insert(2)" />
-                <input class="btn" type="button" class="btn" id="three" value="3" onclick="insert(3)" />
-                
-                <input class="btn" type="button" class="btn" id="equa" value="=" onclick="equal()" />
-                
-                <input class="btn" type="button" class="btn" id="zero" value="0" onclick="insert(0)"/>
-                <input class="btn" type="button" value="." class="btn" id="dot" onclick="insert('.')" />
-    <script src="script.js"></script>
-  </body>
+    <script src="app.js"></script>
+    </body>
 </html>
